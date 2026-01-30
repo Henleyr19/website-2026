@@ -5,7 +5,7 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Jade",
+    valentineName: "Alexandria 💖",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
@@ -24,7 +24,7 @@ const CONFIG = {
         first: {
             text: "Do you like me?",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
+            noBtn: "No, not really 😡​",                                               // Text for "No" button
             secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
         },
         second: {
@@ -49,7 +49,7 @@ const CONFIG = {
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
+        title: "Yay! I'm the luckiest person in the world! I love you so much! 🎉💝💖💝💓",
         message: "Now come get your gift, a big warm hug and a huge kiss!",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
@@ -57,11 +57,11 @@ const CONFIG = {
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
-        backgroundStart: "#ffafbd",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#ffc3a0",        // Gradient end (should complement backgroundStart)
-        buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
-        buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
-        textColor: "#ff4757"             // Text color (make sure it's readable!)
+        backgroundStart: "#839705",      // Gradient start (try pastel colors for a soft look)
+        backgroundEnd: "#fff8de",        // Gradient end (should complement backgroundStart)
+        buttonBackground: "#6ca651",     // Button color (should stand out against the background)
+        buttonHover: "#bbcb2e",          // Button hover color (slightly lighter than buttonBackground)
+        textColor: "#fdb5ce"             // Text color (make sure it's readable!)
     },
 
     // Animation settings
@@ -78,7 +78,7 @@ const CONFIG = {
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://res.cloudinary.com/dncywqfpb/video/upload/v1738399057/music_qrhjvy.mp3", // Music streaming URL
+        musicUrl: "https://res.cloudinary.com/dewuqq2po/video/upload/v1769768972/shrek-music_c0pccg.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
